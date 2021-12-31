@@ -1,0 +1,153 @@
+body {
+    margin: 0 auto;
+
+}
+
+
+.continer {
+    width:70%;
+}
+
+.header {
+    background-color: #1f2937;
+    height: 768px;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo {
+    color: #fff;
+    font-size: 30px;
+    margin-left: 20%;
+    align-self: flex-start;
+    font-weight: bold;
+}
+
+ul {
+    display: inline-flex;
+    list-style: none;
+    gap: 20px;
+    color: #fff;
+    margin-right: 20%;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5%;
+    gap: 10px
+}
+
+.text-content {
+    margin-left: 20%;
+}
+
+#hero {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+#hero-second {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+.content a{
+    background-color: #3882f6;
+    color: #fff;
+    font-size: 17px;
+    padding: 10px;
+    border-radius: 10%;
+    text-decoration:none;
+    padding: 10px 20px 10px 20px;
+}
+
+.image {margin-right: 20%;}
+.image img {
+    height: 500px;
+}
+/*  */
+.information {
+    display: flex;
+    flex-direction: column;
+}
+.information h5 {
+    text-align: center;
+    font-size:40px;
+    font-weight: bold;
+}
+#card-continer{
+    display: flex;
+    height: 400px;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2%;
+}
+.cards {
+    border: 5px solid #3882f6;
+    border-radius: 10%;
+    width: 150px;
+    height: 150px;
+}
+/* Quote */
+.quote {
+    display: flex;
+    height: 400px;
+    background-color: #e5e7eb;
+    justify-content: center;
+    align-items: center;
+    padding-top: 4%;
+
+}
+
+.quote p {
+    font-size: 36px;
+}
+/*  */
+
+.signup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+.signup .small {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 35%;
+    width: 50%;
+    border-radius: 20px;
+    background-color: #3b82f6;
+}
+
+.signup .small .phargraph p{
+    font-weight: bold;
+    color: #fff;
+}
+
+.signup .small button {
+    height: 25%;
+    width: 110px;
+    font-weight: bold;
+    background-color: #3b82f6;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 10px;
+}
+
+/*  */
+footer {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color: white;
+    background-color: #1f2937;
+    height: 100px;
+}
+footer a{
+    text-decoration:none;
+}
